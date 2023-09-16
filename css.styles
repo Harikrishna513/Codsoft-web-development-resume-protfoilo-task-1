@@ -1,0 +1,89 @@
+/* styles.css */
+
+/* Reset some default styles */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+header h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+section {
+    padding: 2rem;
+}
+
+section#about img {
+    max-width: 10%;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+section#skills ul {
+    list-style-type: none;
+}
+
+section#skills li {
+    margin-bottom: 0.5rem;
+}
+
+section#projects .project {
+    margin-bottom: 2rem;
+}
+
+section#projects img {
+    max-width: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+section#resume a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+section#contact p {
+    margin-bottom: 0.5rem;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    header p {
+        font-size: 1rem;
+    }
+
+    section {
+        padding: 1rem;
+    }
+}
